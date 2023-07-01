@@ -4,21 +4,15 @@ import styled from 'styled-components'
 export const ListItem = styled.li`
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
-`
-
-export const TitleAndNoteContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  border-radius: 10px;
-  width: 40%;
-  margin: 10px;
-  padding: 10px;
-  border-width: 10px;
-  border-radius: 10px;
-  border-color: #cbd5e1;
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  padding: 24px 16px;
+  @media screen and (min-width: 768px) {
+    width: 31%;
+    min-width: 257px;
+    margin: 0px 8px 24px 8px;
 `
 
 export const TitleName = styled.h1`
